@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es5", "es6", "dom"],
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "downlevelIteration": true
+  },
+  "include": ["src"]
+}
