@@ -59,7 +59,7 @@ type IndexData struct {
 
 func prepareIndex() error {
 	// Read the template file
-	templateData, err := os.ReadFile("build/index.html")
+	templateData, err := os.ReadFile("build/index-template.html")
 	if err != nil {
 		fmt.Errorf("Error reading template file: %s", err)
 	}
